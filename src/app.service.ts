@@ -5,7 +5,10 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
-  getSomething():string{
-    return 'something will be sent back';
+  getSomething(){
+    return {
+      name:"warda",
+      age:22
+    };
   }
 }
